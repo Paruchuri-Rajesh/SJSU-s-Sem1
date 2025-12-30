@@ -45,7 +45,7 @@ with DAG(
             raise RuntimeError(f"No 'Time Series (Daily)' in response. Keys: {list(data.keys())[:5]}")
 
         return ts  # dict of {date_str: {...}}
-
+        pritn("Hello world ")
 
     @task
     def transform_stock_data(time_series: dict, symbol: str):
