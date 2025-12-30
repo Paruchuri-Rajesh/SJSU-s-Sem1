@@ -63,7 +63,7 @@ with DAG(
                     "volume": int(vals["5. volume"]),
                 }
             )
-        print("This is just a dummy line added to check the pr request automation in n8n")
+        print("This is just a dummy line added to check the pr request automation in n8n,hello world")
         # sort ascending and keep last 90
         records.sort(key=lambda r: r["date"])
         if len(records) > 90:
